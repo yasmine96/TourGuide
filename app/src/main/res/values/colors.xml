@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Primary color of the app (shown in the app bar) -->
+    <color name="primary_color">#030580</color>
+
+    <!-- Primary dark color of the app (shown in the status bar) -->
+    <color name="primary_dark_color">#201e1e</color>
+
+    <color name="colorAccent">#D81B60</color>
+
+    <!-- Background color for the Cafes category -->
+    <color name="category_cafes">#fd0967</color>
+
+    <!-- Background color for the Restaurants category -->
+    <color name="category_restaurants">#6a71f2</color>
+
+    <!-- Background color for the Hotels category -->
+    <color name="category_hotels">#b1af4c</color>
+
+    <!-- Background color for the Clubs category -->
+    <color name="category_clubs">#16afca</color>
+</resources>

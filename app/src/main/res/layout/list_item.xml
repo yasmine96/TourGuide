@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/text_container"
+    android:layout_width="match_parent"
+    android:layout_height="88dp"
+    android:orientation="vertical"
+    android:background="#d67676">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:gravity="bottom"
+        android:id="@+id/place_name"
+        android:textColor="@android:color/white"
+        android:textAppearance="?android:textAppearanceMedium"
+        android:textStyle="bold"
+        android:paddingLeft="16dp"
+        tools:text="Chicken Filla" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:paddingLeft="16dp"
+        android:textAppearance="?android:textAppearanceMedium"
+        android:textColor="@android:color/white"
+        android:id="@+id/place_location"
+        tools:text="Location" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:gravity="top"
+        android:paddingLeft="16dp"
+        android:textAppearance="?android:textAppearanceMedium"
+        android:textColor="@android:color/white"
+        android:id="@+id/place_WebSite"
+        tools:text="website/FB Page" />
+
+</LinearLayout>
